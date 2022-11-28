@@ -15,13 +15,18 @@ ol {
 
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
 }
 button {
   border: none;
 }
 a {
   display: inline-block;
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
   text-decoration: none;
 }
 h1,
@@ -142,6 +147,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  list-style-type: none;
 }
 
 .nav-link {

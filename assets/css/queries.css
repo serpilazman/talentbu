@@ -471,7 +471,7 @@
 
   .nav {
     /* margin-top: 5.7rem; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     display: inline-block;
     margin-left: 0;
     margin-right: 0;
@@ -481,20 +481,68 @@
     flex-basis: 70%;
   }
   .nav-list {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
-    justify-self: flex-start;
+
     margin-left: 0;
   }
   .nav a {
     color: #000;
     animation: none;
   }
+  li:last-child a {
+    width: 5rem;
+    padding-bottom: 0.4rem;
+    font-weight: 600;
+  }
   .c-u-p-form-box {
-    width: 18rem;
-    height: 28rem;
+    width: 22rem;
+    height: 32rem;
     top: 36rem;
-    left: 10rem;
+    left: 8rem;
+  }
+  .c-u-p-form {
+    row-gap: 0.8rem;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .btn-signin {
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 1px solid #efebed;
+    border-radius: 0.6rem;
+  }
+  .btn-signin span {
+    font-size: 1.1rem;
+  }
+  .c-u-p-title {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .c-u-p-form label {
+    font-size: 1.3rem;
+  }
+  .c-u-p-form div:nth-child(8) label {
+    font-size: 1.1rem;
+  }
+  .c-u-p-form input[type="text"],
+  .c-u-p-form input[type="email"],
+  .c-u-p-form input[type="password"] {
+    width: 10rem;
+  }
+  .btn-profile-create {
+    padding: 0.6rem 0;
+    width: 11rem;
+    font-size: 1.3rem;
+  }
+
+  .account-text {
+    margin-top: 0.5rem;
+    margin-left: 1.7rem;
+    color: #444;
+    font-size: 1.2rem;
   }
   @keyframes animate {
     0% {

@@ -157,7 +157,6 @@ li:last-child a {
   height: 2.5rem;
   background-color: #724aee;
   color: #fff !important;
-
   font-style: normal;
   font-weight: 700;
   border-radius: 0.5rem;
@@ -170,7 +169,6 @@ li:last-child a {
   position: absolute;
   top: 25rem;
   left: 8.1rem;
-
   border: 1px solid #efebed;
   border-radius: 1rem;
 }
@@ -190,6 +188,7 @@ li:last-child a {
   background: none;
   border: 1px solid #efebed;
   border-radius: 0.6rem;
+  cursor: pointer;
 }
 
 .btn-signin:hover,

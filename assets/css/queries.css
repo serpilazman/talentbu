@@ -389,6 +389,7 @@ color: brown;
     width: 100%;
     gap: 1rem;
     padding: 1.8rem 1rem;
+    justify-content:flex-end;
     
   }
   .logo {
@@ -399,15 +400,21 @@ color: brown;
     /* margin-top: 5.7rem; */
     font-size: 1.2rem;
     display: inline-block;
-    margin-left: 10.4rem;
+    
     margin-top: 0.64rem;
     text-align: right;
     z-index: 1;
     flex-basis: 70%;
+    align-self:flex-start;
   }
   .nav-list {       
-    justify-content:flex-end;
+    margin-left: 2.4rem;
     gap: 1rem;
+  }
+  .nav a  {
+    color: #000;
+    animation: colored 36s ease-in-out infinite;
+    font-weight: 700;
   }
   
   .c-u-p-form-box {
@@ -421,7 +428,7 @@ color: brown;
     /* height: 101.5rem; */    
     top: 0;
     left: 0;
-    background-size:30%;
+    background-size:100%;
     animation: animate 36s ease-in-out infinite;
     background-repeat: no-repeat;
     background-position: 75% 75%;
@@ -433,30 +440,122 @@ color: brown;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
     16.6% {
       background-image: url(../images/bg/bg-2.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
     33.2% {
       background-image: url(../images/bg/bg-3.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
     49.8% {
       background-image: url(../images/bg/bg-4.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
     66.4% {
       background-image: url(../images/bg/bg-5.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
     83% {
       background-image: url(../images/bg/bg-6.svg);
-      background-size: 80%;
+      background-size: 100%;
     }
   }
 
+
+}
+/**************************/
+/* BELOW 375px (Mini Phones) */
+/**************************/
+@media (max-width: 23.5em) {
+  .container {
+    max-width: 100%;
+    height: 100vh;
+    
+  }
+  .container-bg {    
+    /* height: 101.5rem; */    
+    top: 4rem;
+    left: 0;
+    background-size:100%;
+    animation: animate 26s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-position: 0 110px;
+    margin-left: -0.2rem;
+    
+  }
+  header{
+    width: 100%;
+    gap: 2rem;
+    padding: 1.8rem 1rem;
+    flex-direction: column;
+    
+    
+  }
+  .logo {
+    flex-basis: 40%;
+    text-align: center;
+  }
+  
+  .nav {
+    /* margin-top: 5.7rem; */
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 0.64rem;
+    text-align: right;
+    z-index: 1;
+    flex-basis: 70%;
+    justify-self: center;
+  }
+  .nav-list {       
+    justify-content:center ;
+    gap: 1rem;
+  }
+  .nav a{
+    color: #000;
+    animation: none;
+  }
+  .c-u-p-form-box {
+    width: 18rem;
+    height: 25rem;    
+    top: 40rem;
+    left:10rem;
+   
+  }
+  @keyframes animate {
+    0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+      
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
+    }
+  }
 
 }
 

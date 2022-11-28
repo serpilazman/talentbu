@@ -73,7 +73,6 @@ body {
   animation: animate 36s ease-in-out infinite;
   background-repeat: no-repeat;
   margin-left: -0.2rem;
-  background-size: cover;
 }
 
 @keyframes animate {
@@ -81,30 +80,34 @@ body {
   }
   100% {
     background-image: url(../images/bg/bg-1.svg);
+    background-size: 100%;
   }
   16.6% {
     background-image: url(../images/bg/bg-2.svg);
+    background-size: 100%;
   }
   33.2% {
     background-image: url(../images/bg/bg-3.svg);
+    background-size: 100%;
   }
   49.8% {
     background-image: url(../images/bg/bg-4.svg);
+    background-size: 100%;
   }
   66.4% {
     background-image: url(../images/bg/bg-5.svg);
+    background-size: 100%;
   }
   83% {
     background-image: url(../images/bg/bg-6.svg);
+    background-size: 100%;
   }
 }
 @keyframes colored {
   0%,
   100% {
-    color: #000;
   }
   16.6% {
-    color: #000;
   }
   33.2% {
     color: #fff;
@@ -113,10 +116,8 @@ body {
     color: #fff;
   }
   66.4% {
-    color: #000;
   }
   83% {
-    color: #000;
   }
 }
 header {
@@ -150,7 +151,8 @@ header {
   list-style-type: none;
 }
 
-.nav-link {
+.nav a {
+  color: #000;
   animation: colored 36s ease-in-out infinite;
   font-weight: 700;
 }

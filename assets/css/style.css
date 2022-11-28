@@ -1,5 +1,43 @@
 @import "./_reboot.css";
 
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+button {
+  border: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
 html {
   /* font-size: 62.5%; */
   font-size: 10px;

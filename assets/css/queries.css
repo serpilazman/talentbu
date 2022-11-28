@@ -10,6 +10,8 @@
   }
   @keyframes animate {
     0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);
@@ -92,6 +94,8 @@
   }
   @keyframes animate {
     0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);
@@ -186,6 +190,8 @@
   }
   @keyframes animate {
     0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);
@@ -291,6 +297,36 @@
   .container {
     max-width: 100%;
     
+  }
+  @keyframes animate {
+    0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
+    }
   }
   
   header{
@@ -437,6 +473,8 @@ color: brown;
   }
   @keyframes animate {
     0% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);

@@ -1,0 +1,469 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 86em) {
+  .container {
+    max-width: 100%;
+  }
+  @keyframes animate {
+    0% {
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
+    }
+  }
+  header {
+    max-width: 144rem;
+    padding: 5rem 9.7rem;    
+    gap: 36rem;
+  }
+  .nav {
+    /* margin-top: 5.7rem; */
+    font-size: 1.4rem;    
+    margin-left: 10.4rem;    
+  }
+  .nav-list {   
+    gap: 2.2rem;
+  }
+  
+
+  .c-u-p-form-box {
+    width: 24rem;
+    height: 43.2rem;
+    position: absolute;
+    top: 23.2rem;
+    left: 7.9rem;  
+    border: 1px solid #efebed;
+    border-radius: 1rem;
+  }
+  .c-u-p-form input[type="text"],
+.c-u-p-form input[type="email"],
+.c-u-p-form input[type="password"] {
+  width: 14rem;
+}
+  .c-u-p-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11fr);
+    row-gap: 0.8rem;
+    padding: 2rem 4.6rem;
+  }
+  .c-u-p-form div {    
+    gap: 0.3rem;
+  }
+  .btn-signin {   
+    gap: 0.7rem;
+    padding: 0.3rem 0.6rem;
+   
+  }
+  
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 100%;
+  }
+  @keyframes animate {
+    0% {
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
+    }
+  }
+  header {
+    max-width: 154rem;
+    padding: 4rem 9rem;
+    gap: 20rem;
+  }
+  .nav {
+    /* margin-top: 5.7rem; */
+    font-size: 1rem;
+    margin-left: 14rem;
+    
+    
+  }
+  .nav-list {
+    
+    gap: 1.5rem;
+  }
+  li:last-child a {
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 0.3rem 0.9rem 0.3rem 1rem;
+  }
+  
+  .c-u-p-form-box {
+    width: 22rem;
+    height: 38rem;    
+    top: 21rem;
+    left: 7rem; 
+   
+  }
+  .c-u-p-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11fr);
+    row-gap: 0.4rem;
+    padding: 1.7rem 4rem;
+  }
+  .account-text {
+    font-size: 1rem;
+  }
+  .btn-profile-create {
+    width: 13rem;
+  }
+  .c-u-p-form input[type="text"],
+.c-u-p-form input[type="email"],
+.c-u-p-form input[type="password"] {
+  width: 13rem;
+}
+.btn-signin {
+  width: 13rem;
+}
+  
+ 
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .container {
+    max-width: 100%;
+  }
+  @keyframes animate {
+    0% {
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
+    }
+  }
+
+  .c-u-p-form-box {
+    width: 18rem;
+    height: 30rem;    
+    top: 16.5rem;
+    left: 5rem; 
+   
+  }
+  .c-u-p-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11fr);
+    row-gap: 0.2rem;
+    padding: 1.5rem 3.7rem;
+  }
+  .c-u-p-form div:nth-child(8) label {
+    font-size: 1rem;
+  }
+  .c-u-p-form label {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .c-u-p-form div {
+    
+    gap: 0.3rem;
+  }
+  .account-text {
+    font-size: 1rem;
+  }
+  .btn-profile-create {
+    width: 10rem;
+  }
+  .c-u-p-form input[type="text"],
+.c-u-p-form input[type="email"],
+.c-u-p-form input[type="password"] {
+  width: 10rem;
+}
+.btn-signin {
+  width: 10rem;
+}
+.btn-icon{
+  width: 15px;
+  height: 15px;
+}
+.btn-signin span {
+  font-size: 0.7rem;  
+}
+.c-u-p-title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.c-u-p-form div:nth-child(8) label {
+  font-size: 0.8rem;
+}
+.btn-profile-create {
+ font-size: 1rem;
+  padding: 0.5rem 0;
+  border-radius: 0.6rem;
+  width: 10rem;
+  cursor: pointer;
+}
+.account-text {
+  font-size: 0.7rem;
+}
+  
+  /* MOBILE NAVIGATION */
+
+
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .container {
+    max-width: 100%;
+    
+  }
+  
+  header{
+    width: 100%;
+    gap: 19rem;
+    padding: 1.8rem 1rem;
+  }
+  .logo {
+    flex-basis: 40%;
+  }
+  .nav {
+    /* margin-top: 5.7rem; */
+    font-size: 0.8rem;
+    margin-right: 27rem;
+    flex-basis: 70%;
+    justify-self: flex-end;
+    flex-basis: 80%;
+    
+    
+  }
+  .nav-list {
+    width: 30rem;
+    justify-content:center;
+    gap: 1rem;
+  }
+  li:last-child a {
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 0.3rem 0.9rem 0.3rem 1rem;
+  }
+
+  .c-u-p-form-box {
+    width: 18rem;
+    height: 25rem;    
+    top: 12.5rem;
+    left: 3rem; 
+   
+  }
+  .c-u-p-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11fr);
+    row-gap: 0.5rem;
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .c-u-p-form div {
+    display: grid; 
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 0.2rem;    
+  }
+  .c-u-p-form label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: inline;
+  }
+  .c-u-p-form input[type="text"],
+.c-u-p-form input[type="email"],
+.c-u-p-form input[type="password"] {
+  width: 9rem;
+  justify-self: start;
+}
+.btn-signin {
+  justify-self: center;
+}
+.btn-profile-create{
+  justify-self: center;
+}
+.c-u-p-form div:nth-child(10) {
+color: brown;
+}
+.account-text{
+  grid-column: 1/3;
+}
+.c-u-p-form label {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    max-width: 100%;
+    
+  }
+  header{
+    width: 100%;
+    gap: 1rem;
+    padding: 1.8rem 1rem;
+    
+  }
+  .logo {
+    flex-basis: 40%;
+  }
+  
+  .nav {
+    /* margin-top: 5.7rem; */
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 10.4rem;
+    margin-top: 0.64rem;
+    text-align: right;
+    z-index: 1;
+    flex-basis: 70%;
+  }
+  .nav-list {       
+    justify-content:flex-end;
+    gap: 1rem;
+  }
+  
+  .c-u-p-form-box {
+    width: 18rem;
+    height: 25rem;    
+    top: 9rem;
+    left: 3rem; 
+   
+  }
+  .container-bg {    
+    /* height: 101.5rem; */    
+    top: 0;
+    left: 0;
+    background-size:30%;
+    animation: animate 36s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-position: 75% 75%;
+    margin-left: -0.2rem;
+    
+  }
+  @keyframes animate {
+    0% {
+    }
+    100% {
+      background-image: url(../images/bg/bg-1.svg);
+      background-size: 80%;
+    }
+    16.6% {
+      background-image: url(../images/bg/bg-2.svg);
+      background-size: 80%;
+    }
+    33.2% {
+      background-image: url(../images/bg/bg-3.svg);
+      background-size: 80%;
+    }
+    49.8% {
+      background-image: url(../images/bg/bg-4.svg);
+      background-size: 80%;
+    }
+    66.4% {
+      background-image: url(../images/bg/bg-5.svg);
+      background-size: 80%;
+    }
+    83% {
+      background-image: url(../images/bg/bg-6.svg);
+      background-size: 80%;
+    }
+  }
+
+
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

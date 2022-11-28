@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Home Page</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/queries.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-bg">
+        <header>
+          <h1 class="logo">LOGO</h1>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#" class="nav-link">For Talent</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#" class="nav-link"> For Company </a>
+              </li>
+              <li class="nav-list-item">
+                <a href="#" class="nav-link"> Login </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="c-u-p-form-box">
+          <form class="c-u-p-form" action="#">
+            <button class="btn-signin">
+              <i>
+                <img class="btn-icon" src="assets/images/linkedin.svg" alt="" />
+              </i>
+              <span>Sign in with</span>
+            </button>
+            <h4 class="c-u-p-title">Create User Profile</h4>
+            <div>
+              <label class="inline-label" for="name">Name</label>
+              <input id="name" type="text" placeholder="" required />
+            </div>
+
+            <div>
+              <label for="surname">Surname</label>
+              <input id="sur-name" type="text" placeholder="" required />
+            </div>
+
+            <div>
+              <label for="email">E-mail</label>
+              <input id="email" type="email" placeholder="" required />
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input id="password" type="password" placeholder="" required />
+            </div>
+
+            <div>
+              <label for="re-password">Re-password</label>
+              <input id="re-password" type="password" placeholder="" required />
+            </div>
+
+            <div>
+              <input
+                id="radio-btn"
+                type="radio"
+                placeholder=""
+                autofocus
+                required="required"
+              />
+              <label for="term-of-use">Term of use</label>
+            </div>
+
+            <button type="submit" class="btn-profile-create">Create</button>
+
+            <div>
+              <p class="account-text">
+                Already have an account <span><a href="#">login</a></span>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

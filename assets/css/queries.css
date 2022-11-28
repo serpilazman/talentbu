@@ -124,7 +124,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 0.3rem 0.9rem 0.3rem 1rem;
   }
 
@@ -388,7 +387,6 @@
     /* margin-top: 5.7rem; */
     font-size: 1.2rem;
     display: inline-block;
-
     margin-top: 0.64rem;
     text-align: right;
     z-index: 1;
@@ -415,7 +413,7 @@
     /* height: 101.5rem; */
     top: 0;
     left: 0;
-    background-size: 100%;
+    background-size: cover;
     animation: animate 36s ease-in-out infinite;
     background-repeat: no-repeat;
     background-position: 75% 75%;
@@ -455,15 +453,16 @@
   }
   .container-bg {
     /* height: 101.5rem; */
-    top: 4rem;
+    top: 1rem;
     left: 0;
-    background-position: 0 110px;
+    background-position: 0 80px;
   }
   header {
     width: 100%;
-    gap: 2rem;
-    padding: 1.8rem 1rem;
+    gap: 1rem;
+    padding: 1rem 1rem;
     flex-direction: column;
+    align-items: flex-start;
   }
   .logo {
     flex-basis: 40%;
@@ -475,15 +474,17 @@
     font-size: 1.2rem;
     display: inline-block;
     margin-left: 0;
+    margin-right: 0;
     margin-top: 0.64rem;
     text-align: right;
     z-index: 1;
     flex-basis: 70%;
-    justify-self: center;
   }
   .nav-list {
     justify-content: center;
     gap: 1rem;
+    justify-self: flex-start;
+    margin-left: 0;
   }
   .nav a {
     color: #000;
@@ -491,31 +492,38 @@
   }
   .c-u-p-form-box {
     width: 18rem;
-    height: 25rem;
-    top: 40rem;
+    height: 28rem;
+    top: 36rem;
     left: 10rem;
   }
   @keyframes animate {
     0% {
       background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     100% {
       background-image: url(../images/bg/bg-1.svg);
+      background-size: 100%;
     }
     16.6% {
       background-image: url(../images/bg/bg-2.svg);
+      background-size: 100%;
     }
     33.2% {
       background-image: url(../images/bg/bg-3.svg);
+      background-size: 100%;
     }
     49.8% {
       background-image: url(../images/bg/bg-4.svg);
+      background-size: 100%;
     }
     66.4% {
       background-image: url(../images/bg/bg-5.svg);
+      background-size: 100%;
     }
     83% {
       background-image: url(../images/bg/bg-6.svg);
+      background-size: 100%;
     }
   }
 }

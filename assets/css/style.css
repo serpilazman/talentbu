@@ -60,6 +60,7 @@ body {
   background-color: #fff;
   margin: 0 auto;
   overflow-x: hidden;
+  background-color: rgba(114, 74, 238, 0.3);
 
   /* overflow: hidden; */
 }
@@ -189,6 +190,7 @@ li:last-child a {
   border: 1px solid #efebed;
   border-radius: 0.6rem;
   cursor: pointer;
+  color: #000;
 }
 
 .btn-signin:hover,
